@@ -1,4 +1,4 @@
-# 课程代码 - 课程名
+# EE1013 - 电路与电子学
 
 <!--
 1. 通过 [Shields.io](https://shields.io/) 生成如下的徽章，标注课程的基本信息。
@@ -9,24 +9,58 @@
 -->
 
 ![考试课](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
-![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
 ![学分](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
-![跨专业选修课](https://img.shields.io/badge/%E8%B7%A8%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE-lightskyblue)
-![实验](https://img.shields.io/badge/%E5%AE%9E%E9%AA%8C-purple)
-![文理通识](https://img.shields.io/badge/%E6%96%87%E7%90%86%E9%80%9A%E8%AF%86-orange)
 
 ![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![作业40%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-40%25-wheat)
-![期末考试60%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
+![三个模块占比不同](https://img.shields.io/badge/三个模块占比不同-wheat)
 
+![总学时](https://img.shields.io/badge/总学时-64-gold)
+![电路24](https://img.shields.io/badge/电路-24-wheat)
+![模电18](https://img.shields.io/badge/模电-18-wheat)
+![数电22](https://img.shields.io/badge/数电-22-wheat)
+<!--
+![期末考试60%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-60%25-wheat)
+-->
+注意，实验是独立设课。
+
+2024年春季起开设的缝合课程，计算机与电子通信、自动化与电气工程、机器人与智能装备大类均开设。
+包含原《电路IA》前四章、原《模拟电子技术基础》和原《数字电子技术基础》前若干章。
+（具体是几章尚不清楚，因为这门课到现在为止**甚至没有大纲**）
+
+要查找资料及查看学习建议，可以前往以下链接：
+- [电路IA](https://hoa.moe/docs/fresh-spring/ee1011a/)
+- [模拟电子技术基础](https://hoa.moe/docs/sophomore-spring/ee1007/)
+- [数字电子技术基础](https://hoa.moe/docs/sophomore-spring/ee1009/)
 
 ## 授课教师
 
+原来的电路老师+模电老师+数电老师各一位，分别上各自的部分。
+<!--
 - （教师名）
   - 授课风格：
   - 听课建议：
   - ……
+-->
 
 ## 关于考试
+第一年开课，目前未知。
 
 ## 学习建议
+> by [Oliver Wu](https://github.com/OliverWu515), 2024.3
+
+如果大家有预习的需求，下图所示预习顺序可供参考
+```mermaid
+graph LR
+A(电路1-4章)
+B(数电1-2章)
+C(模电第1章)
+A<-->B
+A-->C
+D(数电第3章)
+C-->D
+B-->E
+E(数电第4-6章)
+A-->F
+F[电路8-9、12章]
+```
+上图中，方框中为选学内容（在预习的有限时间里优先级较低），圆框中为必学内容；标有双箭头的框之间可同步学习，标有单箭头的框之间有承接关系。

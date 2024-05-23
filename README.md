@@ -68,7 +68,8 @@ F[电路8-9、12章]
 
 ### 网课推荐
 
-#### 模电
+- [模拟电子技术基础 上海交通大学 郑益慧主讲 - Bilibili](https://www.bilibili.com/video/BV1Gt411b7Zq)
+- [模拟电子技术基础 清华大学 华成英主讲 - Bilibili](https://www.bilibili.com/video/BV1M7411b7Wb)
+- [数字电子技术基础 清华大学 王红主讲 - Bilibili](https://www.bilibili.com/video/BV18p411Z7ce)
 
-- 郑益慧老师的网课，B 站资源为 [《模拟电子技术基础 上交大 郑益慧主讲》](https://www.bilibili.com/video/BV1Gt411b7Zq)
-  > 建议正常听课时关闭弹幕，有任何不懂的地方才打开，看看弹幕里的解答（这也是用 B 站的一大好处，解答非常及时）
+> 建议正常听课时关闭弹幕，有任何不懂的地方才打开，看看弹幕里的解答（这也是 B 站的一大好处，解答非常及时）

@@ -12,7 +12,8 @@
 ![学分](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
 
 ![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![三个模块占比不同](https://img.shields.io/badge/三个模块占比不同-wheat)
+![作业20%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-20%25-wheat)
+![考试80%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-80%25-wheat)
 
 ![总学时](https://img.shields.io/badge/总学时-64-gold)
 ![电路28](https://img.shields.io/badge/电路-28-wheat)

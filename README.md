@@ -21,11 +21,14 @@
 
 要查找资料及查看学习建议，可以前往以下链接：
 
-![电路IA](https://hoa.moe/docs/fresh-spring/ee1011a/)
-![模拟电子技术基础](https://hoa.moe/docs/sophomore-spring/ee1007/)
-![数字电子技术基础](https://hoa.moe/docs/sophomore-spring/ee1009/)
+[电路IA](https://hoa.moe/docs/fresh-spring/ee1011a/)
+
+[模拟电子技术基础](https://hoa.moe/docs/sophomore-spring/ee1007/)
+
+[数字电子技术基础](https://hoa.moe/docs/sophomore-spring/ee1009/)
 
 ## 学时安排
+
 > 文 / [Gaster](https://github.com/WDGaster703), 2025.1
 
 2024年春季学时安排表：
@@ -608,7 +611,7 @@
   <td>2</td>
   <td>1.熟练掌握正弦波振荡电路的组成及振荡条件(重点)；<br>
       2.掌握 RC 振荡电路的组成、特点和分析方法；<br>
-      3.了解 LC 正弦波振荡电路的组成、特点和分析方法。</td>
+      3.了解 LC 正弦波振荡电路的组成、特点和分析方法。<br>
       4.熟练掌握矩形波、三角波和锯齿波发生电路的结构、原理和参数计算方法(重点、难点)；</td>
 </tr>
 <tr>
@@ -922,7 +925,7 @@
   <td>计算机与电子通信17-20班</td>
   <td>和军平</td>
   <td>梁高琪</td>
-  <td>梁亮</td>
+  <td></td>
 </tr>
 <tr>
   <td rowspan="3" align="center">电路与电子学II</td>

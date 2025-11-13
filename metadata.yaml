@@ -1,0 +1,37 @@
+ID: "EE1013"
+SimilarID: []
+Name: "电路与电子学"
+CourseProperty:
+  Major:
+    - Year: "2023_2024"
+      Name: [ "工科试验班（机器人与智能装备）", "工科试验班（计算机与电子通信）", "工科试验班（自动化与电气工程）" ]
+      Degree: "本"
+    - Year: "2024_2025"
+      Name: [ "计算机与电子通信集群", "机器人与智能装备集群", "空天科技集群", "智慧能源与低空动力集群", "电气工程及其自动化" ]
+      Degree: "本"
+  GradeSemesters:
+    - Grade: ""
+      Semester: "春"
+  CourseType: "必修"
+  CourseID: "EE1013"
+  CourseName: "电路与电子学"
+  Credit: "4.0"
+  CourseHour: "64.0"
+  GPAInfluence: "核心权重"
+  GroupCourse:
+    Link: ""
+    Desc: "2025年春季学期电路与电子学课程分为电路与电子学I（计算机与电子通信集群）、电路与电子学II（机器人与智能装备集群、空天科技集群、智慧能源与低空动力集群）和电路与电子学III（电气工程及其自动化）三门课"
+    Name: "电路与电子学I/II/III"
+    Ids: ["", "", ""]
+  GradeComposition:
+    - Name: "作业"
+      Percentage: "20"
+    - Name: "期末考试"
+      Percentage: "80"
+  CourseHourComposition:
+    - Name: "电路"
+      Hour: "28"
+    - Name: "模电"
+      Hour: "18"
+    - Name: "数电"
+      Hour: "18"

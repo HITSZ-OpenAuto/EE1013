@@ -1,0 +1,105 @@
+# 注意: 网课推荐部分的贡献者信息不明确，暂时留空，待人工确认。
+course_name = "电路与电子学"
+course_code = "EE1013"
+notices = """
+注意，电路与电子技术实验（EE1014）是独立设课。
+
+2024年春季起开设的缝合课程，计算机与电子通信、自动化与电气工程、机器人与智能装备大类均开设。
+
+2025 年春季学期改名为电路与电子学II，机器人与智能装备、空天科技、智慧能源与低空动力大类开设。
+"""
+lecturers = []
+textbooks = []
+
+[[online_resources]]
+title = "电路 哈工大 - Bilibili"
+url = "https://www.bilibili.com/video/BV19x411x7We/?spm_id_from=333.337.search-card.all.click"
+description = ""
+author = { name = "", link = "", date = "" }
+
+[[online_resources]]
+title = "模拟电子技术基础 上海交通大学 郑益慧主讲 - Bilibili"
+url = "https://www.bilibili.com/video/BV1Gt411b7Zq"
+description = ""
+author = { name = "", link = "", date = "" }
+
+[[online_resources]]
+title = "模拟电子技术基础 清华大学 华成英主讲 - Bilibili"
+url = "https://www.bilibili.com/video/BV1M7411b7Wb"
+description = ""
+author = { name = "", link = "", date = "" }
+
+[[online_resources]]
+title = "数字电子技术基础 清华大学 王红主讲 - Bilibili"
+url = "https://www.bilibili.com/video/BV18p411Z7ce"
+description = ""
+author = { name = "", link = "", date = "" }
+course = []
+
+[[exam]]
+content = """
+考试由电路、模电、数电三部分题目按顺序组合而成，分数占比4:3:3，题型为填空题和计算题，其中计算题3题电路，2题模电，2题数电，填空题4题电路，3题模电，3题数电。
+23级的考试计算量很大，且模电部分考察了许多概念性填空，考试时注意时间安排。
+"""
+author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2024-12-01" }
+lab = []
+
+[[advice]]
+content = """
+如果大家有预习的需求，以下预习顺序可供参考：
+必学内容（圆框）：
+1. 电路1-4章 与 数电1-2章 (可同步学习)
+2. 模电第1章 (在电路1-4章后)
+3. 数电第3章 (在模电第1章后)
+4. 数电第4-6章 (在数电1-2章后)
+选学内容（方框，优先级较低）：
+1. 电路8-9、12章 (在电路1-4章后)
+"""
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2024-03-01" }
+
+[[advice]]
+content = """
+电路部分学有余力建议自学频率响应（第七章）和暂态电路（第八、九章）的内容，在模电部分对这部分知识有要求但是电路部分学时没有安排。电路和数电总体按体系讲解，可以跟着教学计划学习，学有余力可以自学跳过的内容。模电授课内容较为零碎，建议跟着上交大zzy或者清华hcy对模电整本书进行初步的学习，至少对分立元件搭成的放大电路有一点基本的认知。
+"""
+author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2024-12-01" }
+
+[[advice]]
+content = "建议正常听课时关闭弹幕，有任何不懂的地方才打开，看看弹幕里的解答（这也是 B 站的一大好处，解答非常及时）"
+author = { name = "", link = "", date = "" }
+
+[[schedule]]
+content = """
+2024年春季学时安排：总学时64，其中电路28学时，模电18学时，数电18学时。课程详细拆分为电路、模电、数电三大部分，每个部分均有详细的章节、授课内容、学时安排和课程要求。
+"""
+author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-01-01" }
+
+[[related_links]]
+content = "电路IA: https://hoa.moe/docs/fresh-spring/ee1011a/"
+author = { name = "", link = "", date = "" }
+
+[[related_links]]
+content = "模拟电子技术基础: https://hoa.moe/docs/sophomore-spring/ee1007/"
+author = { name = "", link = "", date = "" }
+
+[[related_links]]
+content = "数字电子技术基础: https://hoa.moe/docs/sophomore-spring/ee1009/"
+author = { name = "", link = "", date = "" }
+
+[[misc]]
+content = """
+二/三位老师分别按顺序讲解一部分课程——但老师并不一定有讲授这节课的经历。
+
+2024 年春季学期的授课老师安排：
+- 计算机与电子通信1-10班: 詹瀚林 (电路), 吴婷 (模电), 朱荣伍 (数电)
+- 计算机与电子通信11-18班: 孙丽 (电路), 谷雨 (模电), 梁亮 (数电)
+- 自动化与电气工程1-6班: 王灿 (电路), 潘学伟 (模电), 喻锦程 (数电)
+- 自动化与电气工程7-10班: 王毅 (电路), 王立欣 (模电), 王立欣 (数电)
+- 机器人与智能装备1-4班: 张瑞宏 (电路), 潘学伟 (模电), 喻锦程 (数电)
+- 机器人与智能装备5-8班: 和军平 (电路), 梁仲明 (模电), 梁仲明 (数电)
+
+2025 年春季学期的授课老师安排：
+- 机器人与智能装备1-10班: 王灿 (电路), 潘学伟 (模电), 喻锦程、梁亮 (数电)
+- 机器人与智能装备11-14班: 王毅 (电路), 王立欣 (模电), 王立欣 (数电)
+- 智慧能源与低空动力1班、空天科技1班: 梁仲明 (电路), 梁仲明 (模电), 朱荣伍 (数电)
+"""
+author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "2024-05-01" }

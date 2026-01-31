@@ -1,112 +1,39 @@
-# 电路与电子学
+# EE1013 - 电路与电子学
 
-**课程代码:** EE1013
+![考试课](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
+![学分](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-4-moccasin)
 
-注意，电路与电子技术实验（EE1014）是独立设课。
+![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
+![作业20%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-20%25-wheat)
+![考试80%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-80%25-wheat)
+
+注意，电路与电子技术实验（[EE1014](https://hoa.moe/docs/fresh-spring/ee1014/)）是独立设课。
+
 2024年春季起开设的缝合课程，计算机与电子通信、自动化与电气工程、机器人与智能装备大类均开设。
+
 2025 年春季学期改名为电路与电子学II，机器人与智能装备、空天科技、智慧能源与低空动力大类开设。
 
-相关资料链接：
-- [电路IA]([https://hoa.moe/docs/fresh-spring/ee1011a/](https://hoa.moe/docs/fresh-spring/ee1011a/))
-- [模拟电子技术基础]([https://hoa.moe/docs/sophomore-spring/ee1007/](https://hoa.moe/docs/sophomore-spring/ee1007/))
-- [数字电子技术基础]([https://hoa.moe/docs/sophomore-spring/ee1009/](https://hoa.moe/docs/sophomore-spring/ee1009/))
+要查找资料及查看学习建议，可以前往以下链接：
 
-## 授课教师
+[电路IA](https://hoa.moe/docs/fresh-spring/ee1011a/)
 
-### 詹瀚林
+[模拟电子技术基础](https://hoa.moe/docs/sophomore-spring/ee1007/)
 
-### 吴婷
+[数字电子技术基础](https://hoa.moe/docs/sophomore-spring/ee1009/)
 
-### 朱荣伍
+## 学时安排
 
-### 孙丽
+> 文 / [Gaster](https://github.com/WDGaster703), 2025.1
 
-### 谷雨
+2024年春季学时安排表：
 
-### 梁亮
+![总学时](https://img.shields.io/badge/总学时-64-gold)
+![电路28](https://img.shields.io/badge/电路-28-wheat)
+![模电18](https://img.shields.io/badge/模电-18-wheat)
+![数电18](https://img.shields.io/badge/数电-18-wheat)
 
-### 王灿
-
-### 潘学伟
-
-### 喻锦程
-
-### 王毅
-
-### 王立欣
-
-### 张瑞宏
-
-### 和军平
-
-### 梁仲明
-
-## 教材与参考书
-
-**电路IA**
-作者：参考资料
-
-**模拟电子技术基础**
-作者：参考资料
-
-**数字电子技术基础**
-作者：参考资料
-
-## 在线资源
-
-- [电路 哈工大 - Bilibili]([https://www.bilibili.com/video/BV19x411x7We/?spm_id_from=333.337.search-card.all.click](https://www.bilibili.com/video/BV19x411x7We/?spm_id_from=333.337.search-card.all.click))
-  网课推荐
-
-- [模拟电子技术基础 上海交通大学 郑益慧主讲 - Bilibili]([https://www.bilibili.com/video/BV1Gt411b7Zq](https://www.bilibili.com/video/BV1Gt411b7Zq))
-  网课推荐
-
-- [模拟电子技术基础 清华大学 华成英主讲 - Bilibili]([https://www.bilibili.com/video/BV1M7411b7Wb](https://www.bilibili.com/video/BV1M7411b7Wb))
-  网课推荐
-
-- [数字电子技术基础 清华大学 王红主讲 - Bilibili]([https://www.bilibili.com/video/BV18p411Z7ce](https://www.bilibili.com/video/BV18p411Z7ce))
-  网课推荐。建议正常听课时关闭弹幕，有任何不懂的地方才打开，看看弹幕里的解答。
-
-## 考试
-
-- 考试由电路、模电、数电三部分题目按顺序组合而成，分数占比4:3:3。
-- 题型为填空题和计算题：其中计算题3题电路，2题模电，2题数电；填空题4题电路，3题模电，3题数电。
-- 23级的考试计算量很大，且模电部分考察了许多概念性填空，考试时注意时间安排。
-
-> 文 / [Gaster]([https://github.com/WDGaster703](https://github.com/WDGaster703)), 2024.12
-
-## 建议
-
-预习顺序参考：
-```mermaid
-graph LR
-A(电路1-4章)
-B(数电1-2章)
-C(模电第1章)
-A<-->B
-A-->C
-D(数电第3章)
-C-->D
-B-->E
-E(数电第4-6章)
-A-->F
-F[电路8-9、12章]
-```
-方框中为选学内容（在预习的有限时间里优先级较低），圆框中为必学内容；标有双箭头的框之间可同步学习，标有单箭头的框之间有承接关系。
-
-电路部分学有余力建议自学频率响应（第七章）和暂态电路（第八、九章）的内容，在模电部分对这部分知识有要求但是电路部分学时没有安排。
-电路和数电总体按体系讲解，可以跟着教学计划学习，学有余力可以自学跳过的内容。
-模电授课内容较为零碎，建议跟着上交大 zzy 或者清华 hcy 对模电整本书进行初步的学习，至少对分立元件搭成的放大电路有一点基本的认知。
-
-## 课程安排
-
-2024年春季学时安排：总学时 64 (电路 28 + 模电 18 + 数电 18)。
-
-![总学时]([https://img.shields.io/badge/总学时-64-gold](https://img.shields.io/badge/总学时-64-gold))
-![电路28]([https://img.shields.io/badge/电路-28-wheat](https://img.shields.io/badge/电路-28-wheat))
-![模电18]([https://img.shields.io/badge/模电-18-wheat](https://img.shields.io/badge/模电-18-wheat))
-![数电18]([https://img.shields.io/badge/数电-18-wheat](https://img.shields.io/badge/数电-18-wheat))
-
-### 电路部分
+{{% details title="电路部分" closed="true" %}}
+<!--标题-->
 <table border="1" cellspacing="10">
 <tr>
   <th align="center">章节</th>
@@ -201,8 +128,10 @@ F[电路8-9、12章]
       3.熟练掌握含理想变压器的电路分析、列写相应方程(重点)。</td>
 </tr>
 </table>
+{{% /details %}}
 
-### 模电部分
+{{% details title="模电部分" closed="true" %}}
+<!--标题-->
 <table border="1" cellspacing="10">
 <tr>
   <th align="center">章节</th>
@@ -283,8 +212,10 @@ F[电路8-9、12章]
       2.正确理解简单有源高通、带通、带阻滤波器的结构、特点和分析方法(重点)。</td>
 </tr>
 </table>
+{{% /details %}}
 
-### 数电部分
+{{% details title="数电部分" closed="true" %}}
+<!--标题-->
 <table border="1" cellspacing="10">
 <tr>
   <th align="center">章节</th>
@@ -349,11 +280,16 @@ F[电路8-9、12章]
       4.熟练掌握 D/A 转换器的转换精度与转换时间(重点、难点)。</td>
 </tr>
 </table>
+{{% /details %}}
 
-## 其他信息
+## 授课教师
 
-### 2024 年春季学期的授课老师
+二/三位老师分别按顺序讲解一部分课程——但老师并不一定有讲授这节课的经历
 
+> 文 / [IcyDesert](https://github.com/IcyDesert), 2024.5
+
+{{% details title="2024 年春季学期的授课老师" closed="true" %}}
+<!--标题-->
 <table border="1" cellspacing="10">
 <tr>
   <th align="center">授课班级</th>
@@ -398,11 +334,10 @@ F[电路8-9、12章]
   <td>梁仲明</td>
 </tr>
 </table>
+{{% /details %}}
 
-> 文 / [IcyDesert]([https://github.com/IcyDesert](https://github.com/IcyDesert)), 2024.5
-
-### 2025 年春季学期的授课老师
-
+{{% details title="2025 年春季学期的授课老师" closed="true" %}}
+<!--标题-->
 <table border="1" cellspacing="10">
 <tr>
   <th align="center">授课班级</th>
@@ -429,5 +364,48 @@ F[电路8-9、12章]
   <td>朱荣伍</td>
 </tr>
 </table>
+{{% /details %}}
 
-> 文 / [IcyDesert]([https://github.com/IcyDesert](https://github.com/IcyDesert)), 2024.5
+## 关于考试
+
+- 考试由电路、模电、数电三部分题目按顺序组合而成，分数占比4:3:3，题型为填空题和计算题，其中计算题3题电路，2题模电，2题数电，填空题4题电路，3题模电，3题数电。
+- 23级的考试计算量很大，且模电部分考察了许多概念性填空，考试时注意时间安排。
+
+> 文 / [Gaster](https://github.com/WDGaster703), 2024.12
+
+## 学习建议
+
+如果大家有预习的需求，下图所示预习顺序可供参考
+
+```mermaid
+graph LR
+A(电路1-4章)
+B(数电1-2章)
+C(模电第1章)
+A<-->B
+A-->C
+D(数电第3章)
+C-->D
+B-->E
+E(数电第4-6章)
+A-->F
+F[电路8-9、12章]
+```
+
+上图中，方框中为选学内容（在预习的有限时间里优先级较低），圆框中为必学内容；标有双箭头的框之间可同步学习，标有单箭头的框之间有承接关系。
+
+> 文 / [Oliver Wu](https://github.com/OliverWu515), 2024.3
+
+电路部分学有余力建议自学频率响应（第七章）和暂态电路（第八、九章）的内容，在模电部分对这部分知识有要求但是电路部分学时没有安排。电路和数电总体按体系讲解，可以跟着教学计划学习，学有余力可以自学跳过的内容。模电授课内容较为零碎，建议跟着上交大zzy或者清华hcy对模电整本书进行初步的学习，至少对分立元件搭成的放大电路有一点基本的认知。
+
+> 文 / [Gaster](https://github.com/WDGaster703), 2024.12
+
+### 网课推荐
+
+- [电路 哈工大 - Bilibili](https://www.bilibili.com/video/BV19x411x7We/?spm_id_from=333.337.search-card.all.click)
+- [模拟电子技术基础 上海交通大学 郑益慧主讲 - Bilibili](https://www.bilibili.com/video/BV1Gt411b7Zq)
+- [模拟电子技术基础 清华大学 华成英主讲 - Bilibili](https://www.bilibili.com/video/BV1M7411b7Wb)
+- [数字电子技术基础 清华大学 王红主讲 - Bilibili](https://www.bilibili.com/video/BV18p411Z7ce)
+
+> 建议正常听课时关闭弹幕，有任何不懂的地方才打开，看看弹幕里的解答（这也是 B 站的一大好处，解答非常及时）
+

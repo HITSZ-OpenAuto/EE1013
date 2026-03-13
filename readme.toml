@@ -1,7 +1,6 @@
 course_name = "电路与电子学"
-repo_type = "normal"
 course_code = "EE1013"
-
+repo_type = "normal"
 description = """
 注意，电路与电子技术实验（[EE1014](https://hoa.moe/docs/fresh-spring/ee1014/)）是独立设课。
 
@@ -18,54 +17,54 @@ description = """
 [数字电子技术基础](https://hoa.moe/docs/sophomore-spring/ee1009/)
 """
 
-[[lecturers]]
+[lecturers]
+
+[[lecturers.items]]
 name = "詹瀚林"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "吴婷"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "朱荣伍"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "孙丽"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "谷雨"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "梁亮"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "王灿"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "潘学伟"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "喻锦程"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "王毅"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "王立欣"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "张瑞宏"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "和军平"
 
-[[lecturers]]
+[[lecturers.items]]
 name = "梁仲明"
-
 
 [[sections]]
 title = "教材"
 
 [[sections.items]]
-content = ""
 
 [[sections]]
 title = "在线资源"

@@ -22,6 +22,7 @@
 
 ## 授课教师
 
+<!-- TOML-LECTURERS: part="items" -->
 - 詹瀚林
 - 吴婷
 - 朱荣伍

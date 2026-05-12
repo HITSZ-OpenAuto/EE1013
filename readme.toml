@@ -53,7 +53,7 @@ author = [
   { name = "Maxwell Jay", link = "https://github.com/MaxwellJay256", date = "2023-11" },
 ]
 
-[[lecturers]]
+[[lecturers.items]]
 name = "王毅"
 
 [[lecturers.items.reviews]]
@@ -79,7 +79,7 @@ content = """
 """
 author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2024-12" }
 
-[[lecturers]]
+[[lecturers.items]]
 name = "和军平"
 
 [[lecturers.items.reviews]]
@@ -87,7 +87,7 @@ content = """
 负责电路部分和模电前半部分
 """
 
-[[lecturers]]
+[[lecturers.items]]
 name = "吴婷"
 
 [[lecturers.items.reviews]]
@@ -95,7 +95,7 @@ content = """
 负责模电部分
 """
 
-[[lecturers]]
+[[lecturers.items]]
 name = "谷雨"
 
 [[lecturers.items.reviews]]
@@ -117,7 +117,7 @@ content = """
 """
 author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2024-12" }
 
-[[lecturers]]
+[[lecturers.items]]
 name = "潘学伟"
 
 [[lecturers.items.reviews]]
@@ -126,7 +126,7 @@ content = """
 
 """
 
-[[lecturers]]
+[[lecturers.items]]
 name = "王立欣"
 
 [[lecturers.items.reviews]]
@@ -153,7 +153,7 @@ content = """
 如果做好了预习、自学工作，可以考虑在课堂上做题/查漏补缺。答疑直接问老师，老师一般会用英文回答。
 """
 
-[[lecturers]]
+[[lecturers.items]]
 name = "梁亮"
 
 [[lecturers.items.reviews]]
@@ -172,7 +172,7 @@ content = """
 """
 author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2024-12" }
 
-[[lecturers]]
+[[lecturers.items]]
 name = "喻锦程"
 
 [[lecturers.items.reviews]]
@@ -183,7 +183,7 @@ content = """
 """
 author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "" }
 
-[[lecturers]]
+[[lecturers.items]]
 name = "朱荣伍"
 
 [[lecturers.items.reviews]]

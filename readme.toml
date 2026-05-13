@@ -38,7 +38,7 @@ content = """
 
 建议课前预习PPT，关注每节课开头都会提出的四个问题，课上跟着老师做例题（PPT中的例题较多）。老师语速较快，如果没跟上需要课后再复习巩固。
 """
-author = { name = "方朔寒",link = "", date = "2026-05"}
+author = { name = "方朔寒", link = "", date = "2026-05" }
 
 [[lecturers.items]]
 name = "王灿"

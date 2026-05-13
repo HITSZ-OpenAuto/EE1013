@@ -5,6 +5,10 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
+concurrency:
+  group: worktree-update-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   call_reusable_workflow:
     uses: HITSZ-OpenAuto/repos-management/.github/workflows/reusable_worktree_generate.yml@main

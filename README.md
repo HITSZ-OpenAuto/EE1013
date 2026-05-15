@@ -376,6 +376,7 @@
 </tr>
 
 </table>
+{{% /details %}}
 
 ## 关于考试
 <!-- TOML-SECTION: title="关于考试" -->

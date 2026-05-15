@@ -6,7 +6,53 @@ on:
   workflow_dispatch:
 
 jobs:
+  validate_readme_shortcodes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Validate details shortcode balance in readme.toml
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          path = Path("readme.toml")
+          text = path.read_text(encoding="utf-8")
+          token_pattern = re.compile(r"\{\{%\s*(/?)details\b[^%]*%\}\}")
+
+          stack = []
+          errors = []
+
+          for match in token_pattern.finditer(text):
+              line = text.count("\n", 0, match.start()) + 1
+              is_close = match.group(1) == "/"
+              if is_close:
+                  if not stack:
+                      errors.append(f"Unexpected closing details shortcode at line {line}.")
+                  else:
+                      stack.pop()
+              else:
+                  stack.append(line)
+
+          if stack:
+              errors.append(
+                  "Unclosed details shortcode(s) opened at line(s): "
+                  + ", ".join(map(str, stack))
+                  + "."
+              )
+
+          if errors:
+              raise SystemExit(
+                  "Invalid details shortcode structure in readme.toml:\n- "
+                  + "\n- ".join(errors)
+              )
+
+          print("readme.toml details shortcode structure is valid.")
+          PY
+
   call_reusable_workflow:
+    needs: validate_readme_shortcodes
     uses: HITSZ-OpenAuto/repos-management/.github/workflows/reusable_worktree_generate.yml@main
     permissions:
       contents: write
